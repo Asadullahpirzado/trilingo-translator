@@ -1,0 +1,16 @@
+# TriLingo — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core (required)
+# tkinter is part of Python standard library (no install needed)
+
+# TTS backends (at least one recommended)
+pyttsx3>=2.90          # Offline TTS — works on Windows/macOS/Linux
+gTTS>=2.3.2            # Online TTS via Google (fallback for Urdu/Sindhi)
+pygame>=2.5.0          # Audio playback for gTTS mp3 output
+
+# Optional: HuggingFace neural translation (better quality, ~500MB models)
+# Uncomment to enable neural translation for English↔Urdu
+# transformers>=4.35.0
+# torch>=2.0.0
+# sentencepiece>=0.1.99
